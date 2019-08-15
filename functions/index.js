@@ -8,7 +8,7 @@ exports.gameTimes = functions.https.onRequest((request, response) => {
 response.send("Get your game on");
 
 var twilio = require('twilio');
-var client = new twilio('ACaec97d20fecf1084b7414b90327a2dcf', '96b2edd10737006089771f5da85d2c1c')
+var client = new twilio('TWILIO_ID', 'TWILIO_KEY')
 
 const {google} = require('googleapis');
 var CLIENT_ID = '';
