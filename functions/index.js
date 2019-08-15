@@ -12,7 +12,7 @@ var client = new twilio('ACaec97d20fecf1084b7414b90327a2dcf', '96b2edd1073700608
 
 const {google} = require('googleapis');
 var CLIENT_ID = '';
-var API_KEY = 'AIzaSyCUNOryvva0b1diYClCfk9_K0r4VWi6dNs'
+var API_KEY = 'API_KEY_GOES_HERE'
 var CAL_ID = 'akmja0ocng2ggnhndmsibdbtu0@group.calendar.google.com'
 var SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"];
 
